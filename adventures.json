@@ -1,0 +1,14 @@
+{
+  "list_of_adventures": [
+    {
+      "name": "ExampleAdv1",
+      "sheetid": "1Tt0KIE-ALqPXAfLO-cYXyINW0mCc68-b6Wn7VB2ry50",
+      "description": "Adventure summary/blurb goes here"
+    },
+    {
+      "name": "The Wyrldrift",
+      "sheetid": "1_ykm2JOQKqlWE9d_VUdWY1YApH0DfzVDQDbM__L4VtI",
+      "description": "The wyrdlrift. A rip in the fabric of space-time itself. Cast into existence by power-hungry mages that opened a gateway to dimensions beyond. Unthinkable creatures berserk forth, devastating the world. The world lies at a precipice- and you, along with a band of unruly heroes, have been tasked with an impossible mission. The fate of the world hangs in the balance. Choose wisely..."
+    }
+  ]
+}
