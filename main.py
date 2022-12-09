@@ -218,6 +218,20 @@ async def option_4(i: discord.Interaction, button):
     msg = await advsender.button_sender(i, advname, new_page, msgid)
     print(f'Message edited. Awaiting next on_click()...\n')
 
+#about bot->
+@client.command()
+async def about(ctx):
+    print('">about" command invoked.')
+    embed = discord.Embed(
+        title = 'About Me!',
+        color = discord.Colour.greyple()
+    )
+    embed.add_field(name='Discord CYOA bot', value="Discord CYOA Bot lets you create your own choose-your-own-adventure text games on Google Sheets and play them on Discord. [Sample Adventure Google Sheet](https://docs.google.com/spreadsheets/d/1_ykm2JOQKqlWE9d_VUdWY1YApH0DfzVDQDbM__L4VtI/edit#gid=0)\n\nChange only the content and options- make sure to keep the rest of the template intact, and remember to follow up on options with '@x', indicating the page number to jump to for that option. Toggling the sheet's view to public is not necessary- sharing it with the bot's email (see add-adventure in >help) also works if private. \n\nAdd me to your own server- adventures are playable from anywhere!", inline=False)
+    embed.add_field(name='Created by', value='imp#7772', inline=False)
+    await ctx.send(embed=embed)
+    print(f'">about" command embed sent.')
+
+
 #commands functions->
 @client.command()
 async def help(ctx):
