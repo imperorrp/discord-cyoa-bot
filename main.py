@@ -1,19 +1,17 @@
 #discord cyoa bot 
 
-#v1.0(2th June 2022)----------------------------------------------------------
+#v1.1(13th Dec 2022)----------------------------------------------------------
 #features:
-#custom game creation via google docs- free game databases, easy to edit, 
-# anyone can create
+#custom game creation via google docs- free cyoa game databases, easy to edit, anyone can create
 
 #bot logic: 1. Bot maintains a json file list of adventure names with their g-sheet
 #              ids
 #           2. Bot runs, waiting for commands (about, help, display advs, start adv
 #              stop adv)
-#           3. Upon start adv, bot retrieves first prompt + img data from gsheet, 
-#              posts embed with that, adds 'buttons' to select
-#           4. Based on 'button' selection, bot gets new prompts/img from gsheet, 
+#           3. Upon start adv, bot retrieves first prompt data from gsheet, 
+#              posts embed with that, adds 'buttons' to select more options
+#           4. Based on 'button' selection, bot gets new prompts from gsheet, 
 #              refreshes embed with that, adds new 'buttons'
-#           5. At any possible ending, auto-'stop adv' and bot posts end credits msg
 #
 #   (3.)->  a. 'adventure' class objects are created for each new adventure instance in a guild.
 #           b. class variables: guild, adventure number, current page, message id, adventure name
