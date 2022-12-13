@@ -82,8 +82,6 @@ async def remove(ctx, arg1: int):
 @client.command()
 async def adventures(ctx):
     print(f'">adventures" command invoked')
-    #opening adventures.json and creating an embed listing adventures in it (names only rn) 
-    #to add: adventure descriptions and pagination
     f3 = open('adventures.json',)
     advs = json.load(f3)
     list_advs = advs["list_of_adventures"]
@@ -95,8 +93,9 @@ async def adventures(ctx):
     i=1
     for adventure in list_advs:
         name = adventure["name"]
+        url = 'https://docs.google.com/spreadsheets/d/'+ adventure["sheetid"] +'/'
         description = adventure["description"]
-        embed.add_field(name=f"({i}) {name}", value=f'*{description}*', inline=False)
+        embed.add_field(name=f"({i}) {name}", value=f'[Link]({url})\n*{description}*', inline=False)
         i+=1
     await ctx.send(embed=embed)
     print(f'">adventures" command embed sent.')
