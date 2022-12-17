@@ -6,7 +6,7 @@ A python-based Discord bot for playing custom-built text adventures on Discord c
 #### What is this?
 Inspired by the popular choose-your-own-adventure (CYOA) stories (and the myriad others like it, like Give Yourself Goosebumps, so many video games and now a few on-screen movies/series- Black Mirror's Bandersnatch and Minecraft: Story Mode), where *you*, the reader/player/viewer, are given a prompt and some options and you decide what to do next. 
 
-With this project, you can create your own interactive adventures on Google Sheets [See an example here](https://docs.google.com/spreadsheets/d/1_ykm2JOQKqlWE9d_VUdWY1YApH0DfzVDQDbM__L4VtI/edit#gid=0). People can then select and play them on Discord. 
+With this project, you can create your own interactive adventures on Google Sheets. Check out an an example here- [The Wyrldrift](https://docs.google.com/spreadsheets/d/1_ykm2JOQKqlWE9d_VUdWY1YApH0DfzVDQDbM__L4VtI/edit#gid=0). People can then select and play them on Discord. 
 
 #### Who this is for:
 If you run a Discord server and love bots that add to the community gamification experience, this is for you. Writers/game designers might find this cool too, maybe as a medium to get to Discord users?
