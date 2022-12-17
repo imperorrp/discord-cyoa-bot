@@ -79,3 +79,6 @@ Finally, run main.py and try out the commands on Discord.
 ```
 python main.py 
 ```
+## Changelog 
+
+- [17th Dec 2022] Added image support- Adding "@img" followed by a valid image url on Google Sheets after core page content now displays on Discord. More details added to the *Demo/Features* section (see above)
