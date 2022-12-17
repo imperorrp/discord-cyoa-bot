@@ -34,6 +34,10 @@ Some bot commands and basic usage:
 #### >start 2
 ![2nd adventure embed page 1](screenshots/start-2-1.png)
 
+With "content @img some-url-here" on Google Sheets->
+
+![2nd adventure embed page 1 with image](screenshots/embed-w-image.png)
+
 If you *Go left* ->
 
 ![2nd adventure embed page 2](screenshots/start-2-2.png)
@@ -81,4 +85,4 @@ python main.py
 ```
 ## Changelog 
 
-- [17th Dec 2022] Added image support- Adding "@img" followed by a valid image url on Google Sheets after core page content now displays on Discord. More details added to the *Demo/Features* section (see above)
+- [17th Dec 2022] Added image support- Adding "@img" followed by a valid image url on Google Sheets after core page content now displays on Discord. More details added to the *Demo/Commands* section (see above)
