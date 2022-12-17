@@ -15,13 +15,13 @@ async def button_sender(ctx, advname, page, msgid = 0):
     if choice_num==1:
         label1 = options[0].split("@")[0]
         if msgid==0:
-            msg = await ctx.send(embed, components=[[
+            msg = await ctx.send(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey)]])
         else:
             #msg = await ctx.fetch_message(msgid)
-            await ctx.edit(embed, components=[[
+            await ctx.edit(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey)]])
@@ -29,7 +29,7 @@ async def button_sender(ctx, advname, page, msgid = 0):
         label1 = options[0].split("@")[0]
         label2 = options[1].split("@")[0]
         if msgid==0:
-            msg = await ctx.send(embed, components=[[
+            msg = await ctx.send(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey),
@@ -37,7 +37,7 @@ async def button_sender(ctx, advname, page, msgid = 0):
                                     custom_id="option_2",
                                     style=ButtonStyle.grey)]])
         else:
-            await ctx.edit(embed, components=[[
+            await ctx.edit(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey),
@@ -49,7 +49,7 @@ async def button_sender(ctx, advname, page, msgid = 0):
         label2 = options[1].split("@")[0]
         label3 = options[2].split("@")[0]
         if msgid==0:
-            msg = await ctx.send(embed, components=[[
+            msg = await ctx.send(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey),
@@ -60,7 +60,7 @@ async def button_sender(ctx, advname, page, msgid = 0):
                                     custom_id="option_3",
                                     style=ButtonStyle.grey)]])
         else:
-            await ctx.edit(embed, components=[[
+            await ctx.edit(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey),
@@ -76,7 +76,7 @@ async def button_sender(ctx, advname, page, msgid = 0):
         label3 = options[2].split("@")[0]
         label4 = options[3].split("@")[0]
         if msgid==0:
-            msg = await ctx.send(embed, components=[[
+            msg = await ctx.send(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey),
@@ -90,7 +90,7 @@ async def button_sender(ctx, advname, page, msgid = 0):
                                     custom_id="option_4",
                                     style=ButtonStyle.grey)]])
         else:
-            msg = await ctx.edit(embed, components=[[
+            msg = await ctx.edit(embed=embed, components=[[
                             Button(label=label1,
                                     custom_id="option_1",
                                     style=ButtonStyle.grey),
